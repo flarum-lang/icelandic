@@ -19,7 +19,7 @@ This language pack contains Icelandic translations for Flarum (compatible with `
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/icelandic:dev-master
+composer require "flarum-lang/icelandic:@dev"
 ```
 
 Then enable extension in admin panel of your Flarum.
