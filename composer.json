@@ -1,27 +1,24 @@
 {
 	"name": "flarum-lang/icelandic",
+	"description": "Icelandic Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Icelandic language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/icelandic",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"is-locale",
-		"icelandic-locale",
-		"icelandic"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/icelandic",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/icelandic/issues",
+		"forum": "https://discuss.flarum.org/d/40191",
 		"source": "https://github.com/flarum-lang/icelandic"
 	},
 	"require": {
 		"flarum/core": "^1.6"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
 		"flarum-extension": {
 			"title": "Icelandic",
 			"category": "language",
@@ -33,13 +30,7 @@
 		},
 		"flarum-locale": {
 			"code": "is",
-			"title": "Icelandic"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "Íslenska"
 		}
 	}
 }
